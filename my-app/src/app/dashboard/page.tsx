@@ -8,8 +8,8 @@ import "./globals.css";
 export default function Dashboard() {
     return (
         <>
-<html data-theme="autumn">
-  <body className="">
+<html lang="en" data-theme="light">
+  <body className="bg-base-200">
   <header className="bg-base-100 fixed z-50 w-full border-b">
   <nav className="container flex items-center justify-between px-8 py-4 mx-auto max-w-7xl">
   <div>

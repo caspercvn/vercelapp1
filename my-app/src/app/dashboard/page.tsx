@@ -8,7 +8,7 @@ import "./globals.css";
 export default function Dashboard() {
     return (
         <>
-<html data-theme="dim">
+<html data-theme="emerald">
   <body className="">
   <header className="bg-base-100 fixed z-50 w-full">
   <nav className="container flex items-center justify-between px-8 py-4 mx-auto max-w-7xl">

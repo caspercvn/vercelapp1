@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
   <>
-<html data-theme="dim">
+<html data-theme="emerald">
   <body>
 <header className="bg-base-100 fixed z-50 w-full">
   <nav className="ccontainer flex items-center justify-between px-8 py-4 mx-auto max-w-7xl">

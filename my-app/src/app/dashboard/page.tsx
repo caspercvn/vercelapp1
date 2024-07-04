@@ -11,15 +11,22 @@ export default function Dashboard() {
 <html lang="en" data-theme="light">
   <body className="">
   <header className="bg-base-100 fixed z-50 w-full border-b">
-  <nav className="container flex items-center justify-between px-8 py-4 mx-auto max-w-7xl">
-  <div className="relative z-10" data-headlessui-state=""><button className="btn" type="button" aria-expanded="false" data-headlessui-state="" id="headlessui-popover-button-:r8:">Min Profil<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5 duration-200 opacity-50 "><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"></path></svg></button></div>
+  <nav className="container flex items-center justify-between max-w-5xl py-3 max-lg:px-4 mx-auto flex gap-4">
+  <div className="dropdown">
+  <div tabIndex={0} role="button"  className="btn m-1 ">Min Profil</div>
+  <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"> 
+    <li><a>Item 1</a></li>
+    <li><a>Item 2</a></li>
+  </ul>
+  
+</div>
   <div className=""><a className="btn btn-ghost" href="https://insigh.to/b/insighto" target="_blank">💡 Feedback?</a></div>
   </nav>
 </header>
-<main className="h-full max-w-5xl mx-auto max-lg:px-8 py-12 pb-24 bg-base-200">
+<main className="min-h-screen bg-base-200">
   <div className="">
   <section>
-    <div className="container flex items-center justify-between px-8 py-4 mx-auto max-w-7xl lg:py-32 ">
+    <div className="max-w-5xl mx-auto max-lg:px-8 py-12 pb-24 lg:py-32 ">
         
         <h1 className="mb-4 text-2xl font-bold">Dashboard</h1>
        

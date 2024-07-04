@@ -10,7 +10,7 @@ export default function Dashboard() {
         <>
 <html data-theme="emerald">
   <body className="">
-  <header className="bg-base-100 fixed z-50 w-full">
+  <header className="bg-base-100 fixed z-50 w-full border-b">
   <nav className="container flex items-center justify-between px-8 py-4 mx-auto max-w-7xl">
   <div>
   <button className="rounded-lg text-sm px-4 py-2">Min Profil</button>

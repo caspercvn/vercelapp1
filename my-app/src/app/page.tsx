@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
   <>
-<html data-theme="halloween">
+<html data-theme="acid">
 <body>
 <main>
     <section className="max-w-6xl mx-auto p-6 pb-0">

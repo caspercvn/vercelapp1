@@ -13,7 +13,7 @@ const config: Config = {
   },
   plugins: [require("@tailwindcss/typography"), require('daisyui'),],
   daisyui: {
-    themes: ["halloween"],
+    themes: ["acid"],
   }
 };
 export default config;

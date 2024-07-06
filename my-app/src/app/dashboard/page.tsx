@@ -1,45 +1,17 @@
-import Image from "next/image";
-import Link from "next/link";
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
-
-
 export default function Dashboard() {
-    return (
-        <>
-<html lang="en" data-theme="light">
-  <body className="">
-  <header className="bg-base-100 fixed z-50 w-full border-b">
-  <nav className="container flex items-center justify-between max-w-5xl py-3 max-lg:px-4 mx-auto flex gap-4">
-  <div className="dropdown">
-  <div tabIndex={0} role="button"  className="btn m-1 ">Min Profil</div>
-  <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"> 
-    <li><a>Item 1</a></li>
-    <li><a>Item 2</a></li>
-  </ul>
-  
-</div>
-  <div className=""><a className="btn btn-ghost" href="https://insigh.to/b/insighto" target="_blank">💡 Feedback?</a></div>
-  </nav>
-</header>
-<main className="min-h-screen bg-base-200">
-  <div className="">
-  <section>
-    <div className="max-w-5xl mx-auto max-lg:px-8 py-12 pb-24 lg:py-32 ">
-        
-        <h1 className="mb-4 text-2xl font-bold">Dashboard</h1>
-       
-        </div> 
-        </section>
-    </div>
+  return (
+
+   <html data-theme="halloween">
+   <body>
+ <main>
+ <section className="max-w-6xl mx-auto p-6 pb-0">
+ <header className="flex justify-between gap-4 mb-8 md:mb-16"><a className="flex items-center gap-2" href="/"><p className="font-semibold text-2xl">Indie Page</p></a><div className="hidden md:inline-flex items-center gap-12 flex-1 px-16"><a className="link link-hover" href="/#pricing">Priser</a><a className="link link-hover" href="/#signup">FAQ</a></div><button className="btn btn-m bg-primary shadow-none text-black hover:bg-base-100 hover:text-white">Log in</button></header>
+ <div>
+ <div className="flex flex-col gap-8 items-center"><h1 className="lg:backdrop:-mb-4 group text-6xl font-bold text-center	">Turn visitors into<span className="relative mr-2 lg:backdrop:mr-3"><span className=""> customers</span></span> with <span className="border-b-8 border-dashed border-primary whitespace-nowrap duration-200 group-hover:border-secondary">wake-up call</span> popups</h1></div>
+ </div>
+</section>
 </main>
-
 </body>
-</html>
-
-
-
-</>
-    )
+ </html>
+  )
 }

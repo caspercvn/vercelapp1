@@ -20,6 +20,11 @@ export default function Dashboard() {
   };
 
   return (
+    <>
+<html data-theme="halloween">
+<main>
+    <section className="max-w-6xl mx-auto p-6 pb-0">
+    <header className="flex justify-between gap-4 mb-8 md:mb-16"><a className="flex items-center gap-2" href="/"><p className="font-semibold text-2xl">Indie Page</p></a><div className="hidden md:inline-flex items-center gap-12 flex-1 px-16"><a className="link link-hover" href="/#pricing">Priser</a><a className="link link-hover" href="/#signup">FAQ</a></div><Link href="/logind"><button className="btn btn-m">Log ind</button></Link></header>
     <div>
       <h1>Create a new Board</h1>
       <input
@@ -30,5 +35,9 @@ export default function Dashboard() {
       />
       <button onClick={handleCreateBoard}>Create Board</button>
     </div>
+    </section>
+    </main>
+    </html>
+    </>
   );
 }
